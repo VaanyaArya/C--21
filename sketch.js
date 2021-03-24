@@ -53,7 +53,7 @@ function draw() {
     }
 
     if(Rect3.isTouching(ball) ){
-        ball.shapeColor = "white";
+        ball.shapeColor = "black";
         ball.velocityX = 0;
         ball.velocityY = 0;
         music.stop();
